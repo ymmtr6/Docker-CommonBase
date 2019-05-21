@@ -14,8 +14,6 @@ RUN set -x \
 && pip3 install --upgrade pip
 
 RUN set -x \
-&& pip3 install opencv-python \
-&& pip3 install opencv-contrib-python \
 && pip3 install -r /config/requirements.txt
 
 ### setup ubuntu-desktop
